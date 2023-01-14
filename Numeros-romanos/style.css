@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://images.vectorhq.com/images/istock/previews/7975/79756629-wallpaper-seamless-pattern-with-modern-roman-classic-alphabet.jpg);
+}
+
+body #container {
+    background-color: rgb(255, 226, 189);
+    padding: 40px;
+    margin-top: 30vh;
+    font-size: 27px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+}
+
+body #container .content p{
+    margin: 10px;
+}
+
+.content .inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 12px;
+}
+
+.limpar, button {
+    background-color: transparent;
+    border: 0;
+    color: #be7016;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+#number {
+    padding: 10px;
+    margin-left: 10px;
+}
